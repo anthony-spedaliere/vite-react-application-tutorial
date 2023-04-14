@@ -1,12 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1>Our first vite project</h1>
-  )
+    <div className='container'>
+      <h2>Advanced React</h2>
+    </div>
+  );
 }
 
-export default App
+export default App;
